@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ruleset name="Affinity Updater">
+	<description>WordPress coding standards for Affinity Updater.</description>
+
+	<file>.</file>
+
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg name="colors"/>
+	<arg value="ps"/>
+
+	<rule ref="WordPress">
+		<!-- The plugin is namespaced, so file-level prefixes are not required. -->
+		<exclude name="WordPress.NamingConventions.PrefixAllGlobals"/>
+	</rule>
+
+	<config name="minimum_wp_version" value="5.2"/>
+	<config name="testVersion" value="7.4-"/>
+</ruleset>

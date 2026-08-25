@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Packages
+*.zip
+*.tar
+*.gz
+
+# Local settings
+.claude/settings.local.json
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
