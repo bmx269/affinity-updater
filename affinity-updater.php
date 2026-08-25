@@ -28,9 +28,14 @@
  *
  *   AFFINITY_UPDATER_UPDATES is cumulative, each level including the ones before it:
  *
- *     'minor'  minor releases only                        6.8.1 -> 6.8.2
- *     'major'  minor and major releases                   6.8   -> 6.9
- *     'dev'    minor, major, and nightlies, betas and RCs
+ *     'minor'  maintenance and security releases within a branch    6.8.1 -> 6.8.2
+ *     'major'  the above, plus feature releases                     6.8   -> 6.9
+ *     'dev'    the above, plus nightlies, alphas, betas and RCs     6.9-beta1 -> 6.9-beta2
+ *
+ *   'dev' will not move a stable site onto a beta. WordPress treats a site as a
+ *   development version only when the version it is already running contains a
+ *   hyphen, so that level applies to test installs on the nightly or beta
+ *   channel and is ignored everywhere else. See the README for the detail.
  *
  * @package AffinityUpdater
  */
