@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Affinity Updater">
-	<description>WordPress coding standards for Affinity Updater.</description>
+<ruleset name="Affinity Guard">
+	<description>WordPress coding standards for Affinity Guard.</description>
 
 	<file>.</file>
 
