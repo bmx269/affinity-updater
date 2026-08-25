@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:       Affinity Guard
- * Plugin URI:        https://github.com/bmx269/affinity-guard
+ * Plugin URI:        https://github.com/affinitybridge/affinity-guard
  * Description:       Security baseline for WordPress sites deployed from git. Lets core patch itself, keeps itself up to date, and gives other security tooling something to hook.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.2
  * Requires PHP:      7.4
  * Author:            Trent Stromkins
@@ -54,12 +54,12 @@ defined( 'ABSPATH' ) || exit;
  * Plugin version. Semantic: breaking changes to the constants or the hooks
  * documented in the README move the major number, and nothing else does.
  */
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 
 /**
  * Repository self updates are fetched from.
  */
-const REPO = 'bmx269/affinity-guard';
+const REPO = 'affinitybridge/affinity-guard';
 
 /**
  * Cron hook that runs the self update check.

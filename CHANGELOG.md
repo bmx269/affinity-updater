@@ -10,6 +10,16 @@ or **Removed** heading in a major release has to be deployed deliberately.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-08-25
+
+### Changed
+
+- The project moved to the Affinity Bridge organisation, and self updates now
+  read releases from `affinitybridge/affinity-guard`. A 1.0.0 install reaches
+  the new location through GitHub's redirect only until a repository of the old
+  name exists again, so installs should be moved to 1.0.1 by hand rather than
+  left to find their own way.
+
 ## [1.0.0] - 2026-08-25
 
 First release under the name Affinity Guard, previously Affinity Updater. The
@@ -38,5 +48,6 @@ released and are simply gone.
   filters, and `affinity_guard_self_updated` and `affinity_guard_self_update_failed`
   actions.
 
-[Unreleased]: https://github.com/bmx269/affinity-guard/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/bmx269/affinity-guard/releases/tag/v1.0.0
+[Unreleased]: https://github.com/affinitybridge/affinity-guard/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/affinitybridge/affinity-guard/releases/tag/v1.0.1
+[1.0.0]: https://github.com/affinitybridge/affinity-guard/releases/tag/v1.0.0

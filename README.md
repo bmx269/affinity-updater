@@ -103,7 +103,7 @@ All four are added at priority 100: late enough to beat a theme or plugin settin
 
 ## Keeping itself current
 
-WordPress has no update path for must-use plugins — they are not in `get_plugins()`, so nothing in core ever offers them a new version. Guard therefore checks [its own releases](https://github.com/bmx269/affinity-guard/releases) on a daily cron and replaces its own file, which is how a fleet picks up new hardening features without a deploy.
+WordPress has no update path for must-use plugins — they are not in `get_plugins()`, so nothing in core ever offers them a new version. Guard therefore checks [its own releases](https://github.com/affinitybridge/affinity-guard/releases) on a daily cron and replaces its own file, which is how a fleet picks up new hardening features without a deploy.
 
 Self-modifying code deserves scrutiny, so here is exactly what it will and will not do.
 
